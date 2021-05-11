@@ -356,6 +356,49 @@ body{
 .donation-causes {
 	font-size: 14px;
 }
+.mbox-verify {
+	padding-bottom: 50px;
+}
+.close {
+	outline: none !important;
+}
+.mt-2.btn.continue-donate {
+	background: #29A98F !important;
+	color: #fff;
+}
+.short-money {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.payment-doller-box {
+	background: none;
+	text-align: center;
+	padding: 30px 30px;
+	border: 1px solid #F5A51B;
+	margin-top: 30px;
+	color: #354463;
+}
+.btn.btn-card {
+	border: 1px solid #E5E5E5;
+}
+.btn.btn-bank{
+    border: 1px solid #E5E5E5;
+}
+.btn.btn-paypal {
+	background: #29a98f;
+	color: #fff;
+}
+.chose-payment-type {
+	color: #354463;
+}
+
+
+
+
+
+
+
 
 
 /* Phone number verify  */
@@ -374,6 +417,7 @@ body{
 #login p {
 	color: #354463;
 	font-size: 14px;
+	font-weight: bold;
 }
 #phone, .btn {
     padding-top: 6px;

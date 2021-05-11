@@ -95,7 +95,7 @@
                             in over 60 communities across Canada, provincial offices in all 10 provinces and the
                             Northwest Territories and a national office in Kingston.</p>
 
-                        <button type="button" data-toggle="modal" data-target="#myModal"
+                        <button type="button" data-toggle="modal" data-target="#donateNow"
                             class="mt-3 mb-5 btn donate-now-big">Donate Now</button>
                     </div>
                 </div>
@@ -110,13 +110,24 @@
 
 
     <!-- The Modal -->
-    <div class="modal" id="myModal">
+    <div class="modal" id="donateNow">
         <div class="modal-dialog">
             <div class="modal-content">
 
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                    <button type="button" class="close" data-dismiss="modal">
+                        <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.5 26.5834C21.1735 26.5834 26.5834 21.1735 26.5834 14.5C26.5834 7.82658 21.1735 2.41669 14.5 2.41669C7.82658 2.41669 2.41669 7.82658 2.41669 14.5C2.41669 21.1735 7.82658 26.5834 14.5 26.5834Z"
+                                stroke="#F15B43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M18.125 10.875L10.875 18.125" stroke="#F15B43" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M10.875 10.875L18.125 18.125" stroke="#F15B43" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
                 </div>
 
                 <!-- Modal body -->
@@ -152,7 +163,8 @@
                                         <p>Phone number:</p>
                                         <div class="input-type-flex">
                                             <input id="phone" class="form-control" type="tel" name="phone" />
-                                        <input type="submit" class="number-btn" value="Verify" />
+                                            <input type="submit" class="number-btn" data-toggle="modal"
+                                                data-target="#donateSecoundStep" value="Verify" />
                                         </div>
                                     </form>
                                     <div class="alert alert-info" style="display: none"></div>
@@ -173,11 +185,259 @@
     </div>
 
 
+    <!-- Modal 2nd step  -->
+
+    <!-- The Modal -->
+    <div class="modal" id="donateSecoundStep">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                    <button type="button" class="close" data-dismiss="modal">
+                        <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.5 26.5834C21.1735 26.5834 26.5834 21.1735 26.5834 14.5C26.5834 7.82658 21.1735 2.41669 14.5 2.41669C7.82658 2.41669 2.41669 7.82658 2.41669 14.5C2.41669 21.1735 7.82658 26.5834 14.5 26.5834Z"
+                                stroke="#F15B43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M18.125 10.875L10.875 18.125" stroke="#F15B43" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M10.875 10.875L18.125 18.125" stroke="#F15B43" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- Modal Title  -->
+                                <div class="mbox-title">
+                                    <h6 class="popup-title">Charity Raising</h6>
+                                    <h6 class="popup-sub-title">Support the cause</h6>
+                                    <h6 class="popup-main-title">Make Donation</h6>
+                                </div>
+                                <!-- Modal SubMenu  -->
+                                <div class="mbox-submenu">
+                                    <h6 class="donation-causes">Causes to Donate</h6>
+                                    <div class="donation-causes-button">
+                                        <button class="btn btn-genral">Genral</button>
+                                        <button class="btn btn-bw-love">Begin with Love</button>
+                                        <button class="btn btn-ho-love">Harvest of Love</button>
+                                    </div>
+                                </div>
+                                <!-- Modal Veryfication code  -->
+                                <div class="form-group">
+                                    <label for="usr">Veryfication Code:</label>
+                                    <input type="text" class="form-control" placeholder="0000-0000-00-000" id="usr">
+                                </div>
+                                <button type="button" data-toggle="modal" data-target="#donateThirdStep"
+                                    class="mt-2  btn continue-donate">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3rd step  -->
+    <!-- The Modal -->
+    <div class="modal" id="donateThirdStep">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                    <button type="button" class="close" data-dismiss="modal">
+                        <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.5 26.5834C21.1735 26.5834 26.5834 21.1735 26.5834 14.5C26.5834 7.82658 21.1735 2.41669 14.5 2.41669C7.82658 2.41669 2.41669 7.82658 2.41669 14.5C2.41669 21.1735 7.82658 26.5834 14.5 26.5834Z"
+                                stroke="#F15B43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M18.125 10.875L10.875 18.125" stroke="#F15B43" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M10.875 10.875L18.125 18.125" stroke="#F15B43" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- Modal Title  -->
+                                <div class="mbox-title">
+                                    <h6 class="popup-title">Charity Raising</h6>
+                                    <h6 class="popup-sub-title">Support the cause</h6>
+                                    <h6 class="popup-main-title">Make Donation</h6>
+                                </div>
+                                <!-- Modal SubMenu  -->
+                                <div class="mbox-submenu">
+                                    <h6 class="donation-causes">Donation Amount</h6>
+                                    <div class="donation-causes-button">
+                                        <button class="btn btn-genral">Monthly</button>
+                                        <button class="btn btn-bw-love">One time</button>
+                                    </div>
+                                </div>
+                                <!-- payment date on: *  -->
+                                <div class="payment-date">
+                                    payment date on: * of every month
+                                    <form>
+                                        <select name="cars" class="custom-select mt-2">
+                                            <option selected>6th</option>
+                                            <option value="">1st</option>
+                                            <option value="">2nd</option>
+                                            <option value="">3rd</option>
+                                            <option value="">4th</option>
+                                            <option value="">5th</option>
+                                            <option value="">7th</option>
+                                            <option value="">8th</option>
+                                            <option value="">9th</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <!-- Short Payment Money  -->
+                                <div class="short-money">
+                                    <div class="payment-doller-box">
+                                        <span>$5</span>
+                                    </div>
+                                    <div class="payment-doller-box">
+                                        <span>$35</span>
+                                    </div>
+                                    <div class="payment-doller-box">
+                                        <span>$54</span>
+                                    </div>
+                                    <div class="payment-doller-box">
+                                        <span>$75</span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <textarea class="form-control mt-3" placeholder="$0.00" rows="5" id=""></textarea>
+                                </div>
+                                <!-- Continue bunnton  -->
+                                <button type="button" data-toggle="modal" data-target="#donateLastStep"
+                                    class="mt-2  btn continue-donate">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal 4th / last step  -->
+    <!-- The Modal -->
+    <div class="modal" id="donateLastStep">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                    <button type="button" class="close" data-dismiss="modal">
+                        <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.5 26.5834C21.1735 26.5834 26.5834 21.1735 26.5834 14.5C26.5834 7.82658 21.1735 2.41669 14.5 2.41669C7.82658 2.41669 2.41669 7.82658 2.41669 14.5C2.41669 21.1735 7.82658 26.5834 14.5 26.5834Z"
+                                stroke="#F15B43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M18.125 10.875L10.875 18.125" stroke="#F15B43" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M10.875 10.875L18.125 18.125" stroke="#F15B43" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- Modal Title  -->
+                                <div class="mbox-title">
+                                    <h6 class="popup-title">Charity Raising</h6>
+                                    <h6 class="popup-sub-title">Support the cause</h6>
+                                    <h6 class="popup-main-title">Make Donation</h6>
+                                </div>
+                                <!-- Modal SubMenu  -->
+                                <div class="mbox-submenu">
+                                    <h6 class="donation-causes">Donation Amount</h6>
+                                    <div class="donation-causes-button">
+                                        <button class="btn btn-genral">Monthly</button>
+                                        <button class="btn btn-bw-love">One time</button>
+                                    </div>
+                                </div>
+                                <!-- payment date on: *  -->
+                                <div class="payment-date">
+                                    payment date on: * of every month
+                                    <form>
+                                        <select name="cars" class="custom-select mt-2">
+                                            <option selected>6th</option>
+                                            <option value="">1st</option>
+                                            <option value="">2nd</option>
+                                            <option value="">3rd</option>
+                                            <option value="">4th</option>
+                                            <option value="">5th</option>
+                                            <option value="">7th</option>
+                                            <option value="">8th</option>
+                                            <option value="">9th</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <!-- Short Payment Money  -->
+                                <div class="short-money">
+                                    <div class="payment-doller-box">
+                                        <span>$5</span>
+                                    </div>
+                                    <div class="payment-doller-box">
+                                        <span>$35</span>
+                                    </div>
+                                    <div class="payment-doller-box">
+                                        <span>$54</span>
+                                    </div>
+                                    <div class="payment-doller-box">
+                                        <span>$75</span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <textarea class="form-control mt-3" placeholder="$0.00" rows="5" id=""></textarea>
+                                </div>
+
+                                <!-- Monthly contibute  -->
+
+                                <h6>This contribution is monthly</h6>
+
+                                <h6 class="chose-payment-type">Choose payment type:</h6>
+
+                                <div class="payment-method-button">
+                                    <button class="btn btn-card">Pay with Card</button>
+                                    <button class="btn btn-bank">Pay with Bank account</button>
+                                    <button class="btn btn-paypal">PayPal</button>
+                                </div>
+
+                                <!-- Continue bunnton  -->
+                                <div>
+                                    <button type="button" data-toggle="modal" data-target="#donateLastStep"
+                                    class="mt-2  btn continue-donate">Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <!-- bs4 modal end  -->
-
-
-
-
 
 
 
