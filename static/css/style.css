@@ -1,6 +1,6 @@
 /* Google Fonts  */
-/* Poppins font-family: 'Poppins', sans-serif; and font-family: 'Caveat', cursive; */
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Poppins font-family: 'Poppins', sans-serif; and font-family: 'Caveat', cursive; and font-family: 'Rubik', sans-serif; and font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     margin: 0;
@@ -52,12 +52,71 @@ body{
 
 .donation-area{
     background-image: url(../img/donet-bg.png);
-	/* background-size: cover;
-	background-position: center; */
+	background-size: cover;
+	/* background-position: center;  */
 }
-.docation-main-content h1 {
-	font-family: 'Caveat', cursive;
-	font-weight: bold;
-	color: #E8E8E9;
-	font-size: 85px;
+.donation-area {
+	background-image: url(../img/donet-bg.png);
+	/* background-size: cover; */
+	/* background-position: center; */
+	background-size: 1112px;
+	background-repeat: no-repeat;
+}
+.donaction-caveat-title h1 {
+	margin: -33px 0px 0px 0px;
+	color: rgba(127, 130, 140, 0.1);
+	text-shadow: 0px 0px 100px rgba(0,0,0,0.3);
+	line-height: 132px;
+	letter-spacing: -4.2px;
+    font-size: 85px;
+	font-weight: 700;
+    font-family: "Caveat", Sans-serif;
+}
+.donaction-main-content h3{
+    color: #E9BC59;
+    font-family: "Rubik", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.72px;
+}
+.donaction-main-content h4{
+    color: #354463;
+    margin: 0px 0px 30px 0px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    /* line-height: 34px; */
+    line-height: 10px;
+    letter-spacing: -1.44px;
+}
+.donaction-main-content {
+	margin-top: -45px;
+}
+.donaction-bottom-content h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	color: #000;
+}
+
+.donaction-bottom-content p {
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: #7F828C;
+	margin-top: 13px;
+}
+
+
+.btn.btn-success.donate-now-big {
+	font-family: "Rubik", Sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+	letter-spacing: -0.18px;
+	background-color: #29A98F;
+	border-style: none;
+	/* border-radius: 0px 0px 0px 0px; */
+	padding: 13px 60px;
 }
