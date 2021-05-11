@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Owl Carsole -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
     <!-- Main CSS  -->
     <link rel="stylesheet" href="static/css/style.css">
 </head>
@@ -28,7 +33,7 @@
                         <!-- Toggler/collapsibe Button -->
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#collapsibleNavbar">
-                            <span class="navbar-toggler-icon"><i class="fa fa-bar"></i></span>
+                            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                         </button>
 
                         <!-- Navbar links -->
@@ -73,7 +78,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7 offset-md-3 text-center">
-                <img class="mt-5 mb-3" src="static/img/john.png" alt="">
+                <img class="mt-5 mb-3 john-howard" src="static/img/john.png" alt="">
             </div>
         </div>
     </div>
@@ -103,136 +108,127 @@
         </div>
     </div>
 
+    <!-- Share Donation area  -->
 
-
-
-
-
-
-
-
-
-        <!-- Share Donation area  -->
-
-        <div class="share-donation-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center">
-                        <div class="share-dont-area-left-text">
-                            <h1>Charity Raising</h1>
-                            <h3 class="mtn-10">Serving One Another In Love</h3>
-                            <h3 class="mishion-title">The Dryden Mission</h3>
-                            <h6 class="location">R.R.4, SITE 138, DRYDEN, ON, P8N 0A2</h6>
-                            <p>The Dryden Mission is serving the City of Dryden, ON since 2011. We are here to serve
-                                people
-                                who need assistance in personal household items, clothing, bedding, footwear,
-                                counselling
-                                and encouragement</p>
-                            <button class="btn donate-btn float-left mt-3 mb-5">Donate</button>
-                        </div>
+    <div class="share-donation-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <div class="share-dont-area-left-text">
+                        <h1>Charity Raising</h1>
+                        <h3 class="mtn-10">Serving One Another In Love</h3>
+                        <h3 class="mishion-title">The Dryden Mission</h3>
+                        <h6 class="location">R.R.4, SITE 138, DRYDEN, ON, P8N 0A2</h6>
+                        <p>The Dryden Mission is serving the City of Dryden, ON since 2011. We are here to serve
+                            people
+                            who need assistance in personal household items, clothing, bedding, footwear,
+                            counselling
+                            and encouragement</p>
+                        <button class="btn donate-btn float-left mt-3 mb-5">Donate</button>
                     </div>
-                    <div class="col-md-3"></div>
-                    <div class="col-md-3 text-right">
-                        <div class="share-dont-area-right">
-                            <img class="mt-3" src="static/img/share.png" alt="">
-                            <div class="link-box mr-3  text-left">
-                                <h6 class="link-title">Link:</h6>
-                                <input type="text" class="form-control" value="https://www.raw.com">
-                                <h6 class="social-media-title">Social Media:</h6>
-                                <div class="social-media-icon">
-                                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                                    <a href="#"><i class="fas fa-qrcode"></i></a>
-                                    <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                    <a href="#"><i class="fas fa-envelope"></i></a>
-                                    <a href="#"><i class="fab fa-twitter-square"></i></a>
-                                </div>
-                                <button class="share-btn text-center btn">Share</button>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3 text-right">
+                    <div class="share-dont-area-right">
+                        <img class="mt-3" src="static/img/share.png" alt="">
+                        <div class="link-box mr-3  text-left">
+                            <h6 class="link-title">Link:</h6>
+                            <input type="text" class="form-control" value="https://www.raw.com">
+                            <h6 class="social-media-title">Social Media:</h6>
+                            <div class="social-media-icon">
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fas fa-qrcode"></i></a>
+                                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                                <a href="#"><i class="fab fa-twitter-square"></i></a>
                             </div>
+                            <button class="share-btn text-center btn">Share</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Print qr area  -->
-        <div class="print-qr-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="print-qr-left-content">
-                            <h6 class="print-qr-left-title">Share / Print QR</h6>
-                            <h6 class="let-scan">Let User scan and pay</h6>
-                            <div class="qr-flex">
-                                <img src="static/img/qr-code-svgrepo-com.svg" alt="">
-                                <button class="btn qr-btn ml-3">Print Code</button>
-                            </div>
+    <!-- Print qr area  -->
+    <div class="print-qr-area">
+        <div class="container">
+            <div class="row row-reverse">
+                <div class="col-md-3">
+                    <div class="print-qr-left-content">
+                        <h6 class="print-qr-left-title">Share / Print QR</h6>
+                        <h6 class="let-scan">Let User scan and pay</h6>
+                        <div class="qr-flex">
+                            <img src="static/img/qr-code-svgrepo-com.svg" alt="">
+                            <button class="btn qr-btn ml-3">Print Code</button>
                         </div>
                     </div>
-                    <div class="col-md-3"></div>
-                    <div class="col-md-6">
-                        <div class="share-dont-area-left-text">
-                            <h1 class="text-center">Scan QR Code</h1>
-                            <h3 class="mtn-10 text-center">Donation through QR Code</h3>
-                            <h3 class="mishion-title">Download , share QR code</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi duis facilisis a aenean
-                                in
-                                quam ullamcorper. Id volutpat, sit lectus eget dignissim amet. At urna ipsum faucibus
-                                magna
-                                dictum vestibulum, sit aliquam tristique. Elit fermentum nec dignissim urna porttitor
-                                euismod sagittis mi augue.
-                            </p>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="share-dont-area-left-text">
+                        <h1 class="text-center">Scan QR Code</h1>
+                        <h3 class="mtn-10 text-center">Donation through QR Code</h3>
+                        <h3 class="mishion-title">Download , share QR code</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi duis facilisis a aenean
+                            in
+                            quam ullamcorper. Id volutpat, sit lectus eget dignissim amet. At urna ipsum faucibus
+                            magna
+                            dictum vestibulum, sit aliquam tristique. Elit fermentum nec dignissim urna porttitor
+                            euismod sagittis mi augue.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Share Request link  -->
+    <div class="share-donation-area copy-link-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <div class="share-dont-area-left-text">
+                        <h1>Share Link</h1>
+                        <h3 class="mtn-10">Collect Donation</h3>
+                        <h3 class="mishion-title ml-5">Share Request Link</h3>
+                        <p class="ml-5 ml-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi duis
+                            facilisis
+                            a aenean in quam ullamcorper. Id volutpat, sit lectus eget dignissim amet. At urna ipsum
+                            faucibus magna dictum vestibulum, sit aliquam tristique. Elit fermentum nec dignissim
+                            urna
+                            porttitor euismod sagittis mi augue.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4 text-right">
+                    <div class="share-dont-area-right copy-link-margin-top-15">
+                        <!-- <img class="mt-3" src="static/img/share.png" alt=""> -->
+                        <div class="link-box copy-link-box mr-5  text-left">
+                            <h6 class="link-title copy-link text-right">Copy link</h6>
+                            <input type="text" class="form-control" value="https://www.raw.com">
+                            <!-- <h6 class="social-media-title">Social Media:</h6> -->
+                            <div class="social-media-icon copy-link-icon mt-3">
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fas fa-qrcode"></i></a>
+                                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            </div>
+                            <button class="share-btn text-center btn">Copy link</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <!-- Share Request link  -->
-        <div class="share-donation-area copy-link-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center">
-                        <div class="share-dont-area-left-text">
-                            <h1>Share Link</h1>
-                            <h3 class="mtn-10">Collect Donation</h3>
-                            <h3 class="mishion-title ml-5">Share Request Link</h3>
-                            <p class="ml-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi duis
-                                facilisis
-                                a aenean in quam ullamcorper. Id volutpat, sit lectus eget dignissim amet. At urna ipsum
-                                faucibus magna dictum vestibulum, sit aliquam tristique. Elit fermentum nec dignissim
-                                urna
-                                porttitor euismod sagittis mi augue.
-
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-4 text-right">
-                        <div class="share-dont-area-right copy-link-margin-top-15">
-                            <!-- <img class="mt-3" src="static/img/share.png" alt=""> -->
-                            <div class="link-box copy-link-box mr-5  text-left">
-                                <h6 class="link-title copy-link text-right">Copy link</h6>
-                                <input type="text" class="form-control" value="https://www.raw.com">
-                                <!-- <h6 class="social-media-title">Social Media:</h6> -->
-                                <div class="social-media-icon copy-link-icon mt-3">
-                                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                                    <a href="#"><i class="fas fa-qrcode"></i></a>
-                                    <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                    <a href="#"><i class="fas fa-envelope"></i></a>
-                                    <a href="#"><i class="fab fa-twitter-square"></i></a>
-                                </div>
-                                <button class="share-btn text-center btn">Copy link</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
 
 
 
- 
+
     <!-- bs4 modal   -->
 
 
@@ -282,7 +278,7 @@
 
                                 <!-- Modal Input verify  -->
                                 <div class="mbox-verify">
-                                    <h6 class="donation-causes">Verify Cause</h6>
+                                    <h6 class="donation-causes dn">Verify Cause</h6>
 
 
                                     <!-- phn  -->
@@ -432,7 +428,7 @@
                                     </form>
                                 </div>
                                 <!-- Short Payment Money  -->
-                                <div class="short-money">
+                                <div class="owl-carousel short-money">
                                     <div class="payment-doller-box">
                                         <span>$5</span>
                                     </div>
@@ -445,7 +441,11 @@
                                     <div class="payment-doller-box">
                                         <span>$75</span>
                                     </div>
+                                    <div class="payment-doller-box">
+                                        <span>$85</span>
+                                    </div>
                                 </div>
+
 
                                 <div class="form-group">
                                     <textarea class="form-control mt-3" placeholder="$0.00" rows="5" id=""></textarea>
@@ -461,103 +461,6 @@
             </div>
         </div>
     </div>
-
-    <!-- ========= Footer area ========= -->
-    <div class="footer-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <h6 class="footer-title">About Us</h6>
-                            <p class="footer-about-text">Werbylo is a cloud-based solution for nonprofits, churches and religious organizations. 
-
-                             <br><br>   We rise by lifting others.</p>
-                             <div class="footer-menu">
-                                <ul>
-                                    <li><a href="#"><i class="fas fa-angle-right"></i> <i class="fas fa-angle-right mr-2"></i> Privacy policy</a></li>
-                                    <li><a href="#"><i class="fas fa-angle-right"></i> <i class="fas fa-angle-right mr-2"></i> Terms of Use</a></li>
-                                    <li><a href="#"><i class="fas fa-angle-right"></i> <i class="fas fa-angle-right mr-2"></i> User Data Deletion</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <h6 class="footer-title">Site</h6>
-                            <div class="footer-menu">
-                                <ul>
-                                    <li><a href="#"><i class="fas fa-angle-right mr-2"></i> Blog</a></li>
-                                    <li><a href="#"><i class="fas fa-angle-right mr-2"></i> Careers</a></li>
-                                    <li><a href="#"><i class="fas fa-angle-right mr-2"></i> FAQ</a></li>
-                                    <li><a href="#"><i class="fas fa-angle-right mr-2"></i> About us</a></li>
-                                    <li><a href="#"><i class="fas fa-angle-right mr-2"></i> Contact us</a></li>
-                                    <li><a href="#"><i class="fas fa-angle-right mr-2"></i> Site map</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- 2nd Part -->
-                <div class="col-md-7">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h6 class="footer-title">fundraising</h6>
-                            <div class="footer-menu">
-                                <ul>
-                                    <li><a href="#"><i class="fas fa-angle-right mr-2"></i> Place of Worship</a></li>
-                                    <li><a href="#"><i class="fas fa-angle-right mr-2"></i> Non Profits</a></li>
-                                    <li><a href="#"><i class="fas fa-angle-right mr-2"></i> Donor</a></li>
-                                    <li><a href="#"><i class="fas fa-angle-right mr-2"></i> Pricing</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <h6 class="footer-title">Social Media</h6>
-                            <div class="footer-social-media-icon">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div class="footer-newsleter">
-                                <div class="input-group mt-5">
-                                    <input type="email" class="form-control" placeholder="Email">
-                                    <div class="input-group-append">
-                                      <button class="btn btn-success newsleter-btn" type="submit"><i class="fas fa-paper-plane"></i></button>
-                                    </div>
-                                  </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <h6 class="footer-title">Donor app</h6>
-                            <div class="footer-social-media-icon">
-                                <a href="#"><i class="fab fa-apple"></i></a>
-                                <a href="#"><i class="fab fa-android"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8 offset-md-2 text-center">
-                    <p class="footer-copyright pt-5">
-
-                        Copyright © 2021. All Rights Reserved Aquila Chrysaetos INC, Werbylo name and logo are trademarks of Aquila Chrysaetos INC. Powered by <a href="#">International Payment Solutions</a>
-                        </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
     <!-- Modal 4th / last step  -->
     <!-- The Modal -->
     <div class="modal" id="donateLastStep">
@@ -617,7 +520,7 @@
                                     </form>
                                 </div>
                                 <!-- Short Payment Money  -->
-                                <div class="short-money">
+                                <div class="owl-carousel short-money">
                                     <div class="payment-doller-box">
                                         <span>$5</span>
                                     </div>
@@ -629,6 +532,9 @@
                                     </div>
                                     <div class="payment-doller-box">
                                         <span>$75</span>
+                                    </div>
+                                    <div class="payment-doller-box">
+                                        <span>$85</span>
                                     </div>
                                 </div>
 
@@ -676,8 +582,7 @@
 
                                     <!-- Continue bunnton  -->
                                     <div>
-                                        <button type="button" 
-                                            class="mt-2  btn continue-donate">Continue</button>
+                                        <button type="button" class="mt-2  btn continue-donate">Continue</button>
                                     </div>
                                 </div>
                             </div>
@@ -687,6 +592,7 @@
                 </div>
             </div>
         </div>
+    </div>
         <!-- bs4 modal end  -->
 
 
@@ -695,7 +601,100 @@
 
 
 
+        <!-- ========= Footer area ========= -->
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h6 class="footer-title">About Us</h6>
+                                <p class="footer-about-text">Werbylo is a cloud-based solution for nonprofits, churches
+                                    and religious organizations.
 
+                                    <br><br> We rise by lifting others.
+                                </p>
+                                <div class="footer-menu">
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-angle-right"></i> <i
+                                                    class="fas fa-angle-right mr-2"></i> Privacy policy</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right"></i> <i
+                                                    class="fas fa-angle-right mr-2"></i> Terms of Use</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right"></i> <i
+                                                    class="fas fa-angle-right mr-2"></i> User Data Deletion</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <h6 class="footer-title">Site</h6>
+                                <div class="footer-menu">
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-angle-right mr-2"></i> Blog</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right mr-2"></i> Careers</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right mr-2"></i> FAQ</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right mr-2"></i> About us</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right mr-2"></i> Contact us</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right mr-2"></i> Site map</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2nd Part -->
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6 class="footer-title">fundraising</h6>
+                                <div class="footer-menu">
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-angle-right mr-2"></i> Place of Worship</a>
+                                        </li>
+                                        <li><a href="#"><i class="fas fa-angle-right mr-2"></i> Non Profits</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right mr-2"></i> Donor</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right mr-2"></i> Pricing</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <h6 class="footer-title">Social Media</h6>
+                                <div class="footer-social-media-icon">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <div class="footer-newsleter">
+                                    <div class="input-group mt-5 mb-5">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-success newsleter-btn" type="submit"><i
+                                                    class="fas fa-paper-plane"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <h6 class="footer-title">Donor app</h6>
+                                <div class="footer-social-media-icon">
+                                    <a href="#"><i class="fab fa-apple"></i></a>
+                                    <a href="#"><i class="fab fa-android"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 text-center">
+                        <p class="footer-copyright pt-5">
+
+                            Copyright © 2021. All Rights Reserved Aquila Chrysaetos INC, Werbylo name and logo are
+                            trademarks of Aquila Chrysaetos INC. Powered by <a href="#">International Payment
+                                Solutions</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
@@ -717,6 +716,13 @@
 
         <!-- Phone number verifection JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+
+        <!-- Owl Carsole JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+
         <!-- App Js / Custome js -->
         <script src="static/js/app.js"></script>
 </body>

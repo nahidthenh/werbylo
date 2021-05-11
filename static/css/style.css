@@ -29,7 +29,11 @@ body{
 	background: #f5a51b;
 	border-radius: 10px;
 }
-
+.fas.fa-bars {
+	color: #000;
+	border: 1px solid #a1a1a1;
+	padding: 4px;
+}
 
 
 /* Hero Area CSS  */
@@ -518,3 +522,179 @@ margin-top: 10px;
 .footer-copyright a{
 	text-decoration: none !important;
 }
+
+
+
+/* ================================================ Responsive css  ============================================== */
+
+/* iPhone 11 pro  */
+@media only screen and (max-width: 375px) {
+	/* =============  Hero section  ============= */
+	.hero-area {
+		padding: 60px 0px;
+	}
+	.donaction-caveat-title h1 {
+		/* font-size: 36px; */
+		font-size: 56px;
+		color: #E8E8E9;
+	}
+	.donaction-main-content h3 {
+		font-size: 17px;
+		line-height: 18px;
+	}
+	.donaction-main-content h4 {
+		font-size: 20px;
+	}
+	.donaction-bottom-content h6 {
+		font-size: 14px;
+		margin-top: -16px;
+	}
+	.donaction-bottom-content p {
+		font-size: 14px;
+	}
+	.donation-area {
+		background-image: url(../img/donet-bg.png);
+		background-size: 360px;
+		background-repeat: no-repeat;
+		padding: 10px;
+		/*  */
+	}
+	.mt-5.mb-3.john-howard {
+		width: 149px;
+		margin-top: 20px !important;
+		margin-bottom: 3px !important;
+	}
+	.btn.donate-now-big {
+		padding: 10px 100px;
+	}
+	/* ========= share-donation-area Section ======= */
+	.share-donation-area h1 {
+		/* color: red !important; */
+		margin-top: -80px;
+	}
+	.share-donation-area {
+		padding: 10px 0px;
+		/*  */
+		background-image: url(../img/responsive1.png);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.share-dont-area-left-text h1 {
+		/* font-size: 36px; */
+		font-size: 56px;
+		color: #E8E8E9;
+		/* margin: -80px 0px 0px 0px; */
+	}
+	.mtn-10 {
+		font-size: 16px;
+	}
+	.mishion-title {
+		margin: 4px 0px 15px 0px;
+		font-size: 25px;
+		font-weight: 600;
+		text-align: center;
+	}
+	.location {
+		font-size: 11px;
+		text-align: center;
+	}
+	.share-dont-area-left-text p {
+		font-size: 14px;
+		text-align: center;
+	}
+	.btn.donate-btn {
+		display: none;
+	}
+	.social-media-icon a {
+		padding: 0px 10px;
+	}
+	.share-btn.btn {
+		padding: 10px 50px;
+	}
+	.row-reverse{
+		 display: flex;
+		 flex-flow: column-reverse;
+	}
+	.print-qr-area {
+		/* background-image: url(../img/responsive2.png); */
+		background:none;
+		background-repeat: no-repeat;
+		/*  */
+		padding: 10px 0px;
+		background-size: 358px;
+	}
+	.print-qr-left-content {
+		padding: 35px;
+		box-shadow: #E6E6E6 2px 1px 9px 3px;
+		border-radius: 7px;
+		margin-top: 10px !important;
+		margin: 0px 35px;
+		background: #fff;
+		margin-bottom: 36px;
+	}
+	.copy-link-box {
+		margin-left: 0px;
+		margin-right: 0px !important;
+	}
+	.link-box.copy-link-box.mr-5.text-left {
+		margin-right: 0px !important;
+		margin-bottom: 50px;
+	}
+	.ml-5.ml-none {
+		margin-left: 0px !important;
+	}
+	.mishion-title.ml-5 {
+		margin-left: 0px !important;
+	}
+
+	/* Box Modal Section  */
+	.popup-title {
+		font-size: 60px;
+	}
+	.popup-sub-title {
+		font-size: 20px;
+	}
+	.popup-main-title {
+		margin: 6px 0px 20px 0px;
+		font-size: 35px;
+	}
+	.donation-causes {
+		font-size: 18px;
+	}
+	.btn.btn-genral {
+		background: #354463;
+		color: #fff;
+		padding: 7px 35px;
+		margin-bottom: 10px;
+	}
+	.btn.btn-bw-love {
+		background: none;
+		border: 1px solid;
+		margin-bottom: 10px;
+		padding: 7px 20px;
+	}
+	.dn{
+		display: none;
+	}
+	.mt-2.btn.continue-donate {
+		width: 100%;
+	}
+	.btn.btn-card {
+		border: 1px solid #E5E5E5;
+		margin-bottom: 5px;
+		width: 100%;
+	}
+	.btn.btn-bank {
+		border: 1px solid #E5E5E5;
+		width: 63%;
+		font-size: 13px;
+		padding: 12px;
+	}
+	.btn.btn-paypal {
+		border: 1px solid #E5E5E5;
+		margin-top: 0px;
+		padding: 10px;
+	}
+
+
+} 
