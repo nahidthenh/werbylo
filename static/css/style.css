@@ -886,7 +886,7 @@ margin-top: 10px;
 /* ================================== ************************ Responsive 768 px ************************ ======================================== */
 
 /* iPhone 11 pro  */
-@media only screen and (max-width: 768px) {
+@media only screen and (width: 768px) {
 	/* =============  Hero section  ============= */
 	.hero-area {
 		padding: 60px 0px;
