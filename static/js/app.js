@@ -16,9 +16,7 @@ function process(event) {
   info.innerHTML = `Phone number in E.164 format: <strong>${phoneNumber}</strong>`;
 }
 
-
-
 $('.owl-carousel').owlCarousel({
   // loop:true,
   margin:10
-})
+});
