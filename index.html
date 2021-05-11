@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Werbylo</title>
+    <!-- Phone number verify -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- Main CSS  -->
@@ -93,12 +95,98 @@
                             in over 60 communities across Canada, provincial offices in all 10 provinces and the
                             Northwest Territories and a national office in Kingston.</p>
 
-                        <button class="mt-3 mb-5 btn donate-now-big">Donate Now</button>
+                        <button type="button" data-toggle="modal" data-target="#myModal"
+                            class="mt-3 mb-5 btn donate-now-big">Donate Now</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <!-- bs4 modal   -->
+
+
+
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- Modal Title  -->
+                                <div class="mbox-title">
+                                    <h6 class="popup-title">Charity Raising</h6>
+                                    <h6 class="popup-sub-title">Support the cause</h6>
+                                    <h6 class="popup-main-title">Make Donation</h6>
+                                </div>
+                                <!-- Modal SubMenu  -->
+                                <div class="mbox-submenu">
+                                    <h6 class="donation-causes">Causes to Donate</h6>
+                                    <div class="donation-causes-button">
+                                        <button class="btn btn-genral">Genral</button>
+                                        <button class="btn btn-bw-love">Begin with Love</button>
+                                        <button class="btn btn-ho-love">Harvest of Love</button>
+                                    </div>
+                                </div>
+
+                                <!-- Modal Input verify  -->
+                                <div class="mbox-verify">
+                                    <h6 class="donation-causes">Verify Cause</h6>
+
+
+                                    <!-- phn  -->
+
+
+                                    <form id="login" onsubmit="process(event)">
+                                        <p>Phone number:</p>
+                                        <div class="input-type-flex">
+                                            <input id="phone" class="form-control" type="tel" name="phone" />
+                                        <input type="submit" class="number-btn" value="Verify" />
+                                        </div>
+                                    </form>
+                                    <div class="alert alert-info" style="display: none"></div>
+                                    <div class="alert alert-error" style="display: none"></div>
+
+                                    <!-- phn  -->
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- bs4 modal end  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- Share Donation area  -->
 
     <div class="share-donation-area">
@@ -180,7 +268,10 @@
                         <h1>Share Link</h1>
                         <h3 class="mtn-10">Collect Donation</h3>
                         <h3 class="mishion-title ml-5">Share Request Link</h3>
-                        <p class="ml-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi duis facilisis a aenean in quam ullamcorper. Id volutpat, sit lectus eget dignissim amet. At urna ipsum faucibus magna dictum vestibulum, sit aliquam tristique. Elit fermentum nec dignissim urna porttitor euismod sagittis mi augue.
+                        <p class="ml-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi duis facilisis
+                            a aenean in quam ullamcorper. Id volutpat, sit lectus eget dignissim amet. At urna ipsum
+                            faucibus magna dictum vestibulum, sit aliquam tristique. Elit fermentum nec dignissim urna
+                            porttitor euismod sagittis mi augue.
 
                         </p>
                     </div>
@@ -221,6 +312,11 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Phone number verifection JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <!-- App Js / Custome js -->
+    <script src="static/js/app.js"></script>
 </body>
 
 </html>

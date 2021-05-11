@@ -298,3 +298,107 @@ body{
 	margin-top: -30px;
 	background: #fff;
 }
+
+
+
+
+
+
+
+/* Bs4 Modal CSS  */
+.popup-title {
+	text-align: center;
+	margin: -33px 0px 0px 0px;
+	color: rgba(127, 130, 140, 0.1);
+	text-shadow: 0px 0px 100px rgba(0,0,0,0.3);
+	line-height: 132px;
+	letter-spacing: -4.2px;
+	font-size: 85px;
+	font-weight: 700;
+	font-family: "Caveat", Sans-serif;
+}
+.popup-sub-title{
+    margin-top: -48px;
+    color: #E9BC59;
+    font-family: "Rubik", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.72px;
+    text-align: center;
+}
+.popup-main-title {
+	color: #354463;
+	margin: 18px 0px 30px 0px;
+	font-family: "Poppins", Sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 10px;
+	letter-spacing: -1.44px;
+	text-align: center;
+}
+.mbox-submenu {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.btn.btn-genral {
+	background: #354463;
+	color: #fff;
+}
+.btn.btn-bw-love {
+	background: none;
+	border: 1px solid;
+}
+.btn.btn-ho-love {
+	background: none;
+	border: 1px solid;
+}
+.donation-causes {
+	font-size: 14px;
+}
+
+
+/* Phone number verify  */
+.input-type-flex {
+	display: flex;
+}
+.number-btn {
+	border: oldlace;
+	padding: 7px 14px;
+	background: #29A98F;
+	color: #fff;
+	margin-left: 10px;
+	font-size: 14px;
+    border-radius: 5px;
+}
+#login p {
+	color: #354463;
+	font-size: 14px;
+}
+#phone, .btn {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+
+  .alert {
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  
+  .alert-info {
+    border-color: #bce8f1;
+    color: #31708f;
+    background-color: #d9edf7;
+  }
+  
+  .alert-error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+  }
+  
