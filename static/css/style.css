@@ -383,11 +383,67 @@ body{
 	margin-top: 30px;
 	color: #354463;
 }
+.payment-method-button {
+	display: flex;
+	justify-content: space-between;
+}
+/* Modal 4th Update css  */
+.payment-date {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+.custom-select.month-selector {
+	font-size: 13px;
+	text-align: center;
+	margin: 4px -2px;
+}
 .btn.btn-card {
 	border: 1px solid #E5E5E5;
+	font-size: 14px;
 }
-.btn.btn-bank{
-    border: 1px solid #E5E5E5;
+.btn.btn-bank {
+	border: 1px solid #E5E5E5;
+	font-size: 14px;
+}
+
+
+.cradit-card-form {
+	display: flex;
+	justify-items: center;
+	justify-content: space-between;
+}
+.cradit-card.form-control {
+	width: 50%;
+}
+.cradit-card-form h6 {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	color: #000000;
+}
+.cradit-card-form-year {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	align-items: center;
+}
+.btn.expire-year.btn-primary.dropdown-toggle {
+	background: none;
+	color: #000;
+	border: 1px solid #d4dbe1;
+}
+.btn.expire-date.btn-primary.dropdown-toggle {
+	background: none;
+	color: #000;
+	border: 1px solid #d4dbe1;
+}
+.form-control.notRobotInput {
+	width: 43%;
 }
 /* .btn.btn-paypal {
 	background: #29a98f;
@@ -395,7 +451,7 @@ body{
 } */
 .btn.btn-paypal {
 	border: 1px solid #E5E5E5;
-	margin-top: 6px;
+	/* margin-top: 6px; */
 }
 .notRobot {
 	color: #354463;
@@ -522,7 +578,6 @@ margin-top: 10px;
 .footer-copyright a{
 	text-decoration: none !important;
 }
-
 
 
 /* ================================================ Responsive css  ============================================== */
