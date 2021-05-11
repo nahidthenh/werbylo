@@ -584,6 +584,34 @@ margin-top: 10px;
 
 /* iPhone 11 pro  */
 @media only screen and (max-width: 375px) {
+	.custom-select.month-selector {
+		font-size: 13px;
+		text-align: center;
+		margin: 4px 10px;
+	}
+	
+	.payment-date h6 {
+		font-size: 11px;
+  	}
+  
+  	.payment-date h6.mr-2 {
+		margin-right: 0px !important;
+  	}
+ 	.cradit-card-form h6 {
+		font-size: 12px;
+	}
+	.cradit-card-form-year h6{
+		font-size: 12px;
+	}
+	.btn.ml-5.expire-date.btn-primary.dropdown-toggle {
+		margin-left: 0px !important;
+	}
+	.btn.mr-5.expire-year.btn-primary.dropdown-toggle {
+		margin-right: 0px !important;
+	}
+	.form-control.notRobotInput {
+		width: 54%;
+	}
 	/* =============  Hero section  ============= */
 	.hero-area {
 		padding: 60px 0px;
@@ -763,6 +791,34 @@ margin-top: 10px;
 
 /* iPhone 11 pro  */
 @media only screen and (max-width: 425px) {
+	.custom-select.month-selector {
+		font-size: 13px;
+		text-align: center;
+		margin: 4px 10px;
+	}
+	
+	.payment-date h6 {
+		font-size: 11px;
+  	}
+  
+  	.payment-date h6.mr-2 {
+		margin-right: 0px !important;
+  	}
+ 	.cradit-card-form h6 {
+		font-size: 12px;
+	}
+	.cradit-card-form-year h6{
+		font-size: 12px;
+	}
+	.btn.ml-5.expire-date.btn-primary.dropdown-toggle {
+		margin-left: 40px !important;
+	}
+	.btn.mr-5.expire-year.btn-primary.dropdown-toggle {
+		margin-right: 0px !important;
+	}
+	.form-control.notRobotInput {
+		width: 63%;
+	}
 	/* =============  Hero section  ============= */
 	.hero-area {
 		padding: 60px 0px;
