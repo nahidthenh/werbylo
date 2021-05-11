@@ -385,14 +385,27 @@ body{
 .btn.btn-bank{
     border: 1px solid #E5E5E5;
 }
-.btn.btn-paypal {
+/* .btn.btn-paypal {
 	background: #29a98f;
 	color: #fff;
+} */
+.btn.btn-paypal {
+	border: 1px solid #E5E5E5;
+	margin-top: 6px;
+}
+.notRobot {
+	color: #354463;
+	font-size: 14px;
+	margin-top: 15px;
 }
 .chose-payment-type {
 	color: #354463;
 }
-
+.contribution {
+	color: #C4C4C4;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
 
 
 
