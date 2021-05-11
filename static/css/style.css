@@ -50,16 +50,12 @@ body{
 
 /* donation area  */
 
-.donation-area{
-    background-image: url(../img/donet-bg.png);
-	background-size: cover;
-	/* background-position: center;  */
-}
+
 .donation-area {
 	background-image: url(../img/donet-bg.png);
 	/* background-size: cover; */
 	/* background-position: center; */
-	background-size: 1112px;
+	background-size: 1200px;
 	background-repeat: no-repeat;
 }
 .donaction-caveat-title h1 {
@@ -109,7 +105,7 @@ body{
 }
 
 
-.btn.btn-success.donate-now-big {
+.btn.donate-now-big {
 	font-family: "Rubik", Sans-serif;
 	font-size: 16px;
 	font-weight: 500;
@@ -119,4 +115,115 @@ body{
 	border-style: none;
 	/* border-radius: 0px 0px 0px 0px; */
 	padding: 13px 60px;
+    color:#fff !important;
+}
+
+
+/* share-donation-area  */
+
+.share-donation-area {
+	background-image: url(../img/share-donation-bg.png);
+	padding: 100px 0px;
+}
+.share-dont-area-left-text h1{
+    margin: -33px 0px 0px 0px;
+	color: rgba(127, 130, 140, 0.1);
+	text-shadow: 0px 0px 100px rgba(0,0,0,0.3);
+	line-height: 132px;
+	letter-spacing: -4.2px;
+    font-size: 85px;
+	font-weight: 700;
+    font-family: "Caveat", Sans-serif;
+}
+.mtn-10 {
+	margin-top: -48px;
+    color: #E9BC59;
+    font-family: "Rubik", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.72px;
+    text-align: center;
+}
+.mishion-title {
+	color: #354463;
+	margin: 18px 0px 30px 0px;
+	font-family: "Poppins", Sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 10px;
+	letter-spacing: -1.44px;
+	text-align: left;
+}
+
+.location{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #000;
+    text-align: left;
+}
+.share-dont-area-left-text p {
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: #7F828C;
+	margin-top: 13px;
+    text-align: left;
+}
+.btn.donate-btn{
+    padding: 16px 27px 16px 27px;
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: -0.16px;
+    background-color: #29A98F;
+    color:#fff !important;
+    border-style: none;
+    /* border-radius: 0px 0px 0px 0px; */
+}
+
+.share-btn.btn {
+	padding: 16px 27px 16px 27px;
+	font-family: "Rubik", Sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19px;
+	letter-spacing: -0.16px;
+	background-color: #29A98F;
+	color: #fff !important;
+	border-style: none;
+	padding: 8px 31px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.share-dont-area-right img {
+	width: 80%;
+	z-index: 1;
+}
+.link-box {
+	padding: 15px;
+	box-shadow: #E6E6E6 2px 1px 9px 3px;
+	margin-top: -40px;
+}
+.social-media-icon a {
+	color: #A1A1A1;
+	padding: 0px 7px;
+	font-size: 25px;
+    transition: .3s;
+}
+.social-media-title {
+	color: #A1A1A1;
+	margin-top: 12px;
+}
+.link-title {
+	color: #a1a1a1;
+	margin-bottom: 12px;
+	margin-top: 10px;
+}
+.link-box input {
+	color: #a1a1a1;
 }
